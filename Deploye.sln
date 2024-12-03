@@ -7,15 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31DBDB7B-DFD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0FA9AF59-892B-4B23-A63B-8C9DBDC175F5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Application", "src\Deploye.Application\Deploye.Application.csproj", "{BFF9CC96-5D01-4B72-A952-738BE4D63F12}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Domain", "src\Deploye.Domain\Deploye.Domain.csproj", "{C8A70528-2858-4A7A-B08C-B42E9B9E2D15}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Infrastructure", "src\Deploye.Infrastructure\Deploye.Infrastructure.csproj", "{0762D145-A8C4-4986-9EF2-7594686651CE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Application.UnitTests", "tests\Deploye.Application.UnitTests\Deploye.Application.UnitTests.csproj", "{807B02D7-D330-48ED-822B-90017D4B8B8C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Web", "src\Deploye\Deploye.Web.csproj", "{8CAF1619-4249-424E-A1D1-763FCBF5DFE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Application", "src\Deploye.Application\Deploye.Application.csproj", "{90DD6DEA-8CA3-401B-8550-37C2230C7AF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Domain", "src\Deploye.Domain\Deploye.Domain.csproj", "{01CE1488-C912-47E6-9541-F634E3AA8916}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Infrastructure", "src\Deploye.Infrastructure\Deploye.Infrastructure.csproj", "{9F4CC216-923C-4336-8539-1660BC1C7E4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deploye.Application.UnitTests", "tests\Deploye.Application.UnitTests\Deploye.Application.UnitTests.csproj", "{1A45674B-69CA-4C8C-9428-917902681783}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,36 +23,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BFF9CC96-5D01-4B72-A952-738BE4D63F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFF9CC96-5D01-4B72-A952-738BE4D63F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFF9CC96-5D01-4B72-A952-738BE4D63F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFF9CC96-5D01-4B72-A952-738BE4D63F12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8A70528-2858-4A7A-B08C-B42E9B9E2D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8A70528-2858-4A7A-B08C-B42E9B9E2D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8A70528-2858-4A7A-B08C-B42E9B9E2D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8A70528-2858-4A7A-B08C-B42E9B9E2D15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0762D145-A8C4-4986-9EF2-7594686651CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0762D145-A8C4-4986-9EF2-7594686651CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0762D145-A8C4-4986-9EF2-7594686651CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0762D145-A8C4-4986-9EF2-7594686651CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{807B02D7-D330-48ED-822B-90017D4B8B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{807B02D7-D330-48ED-822B-90017D4B8B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{807B02D7-D330-48ED-822B-90017D4B8B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{807B02D7-D330-48ED-822B-90017D4B8B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CAF1619-4249-424E-A1D1-763FCBF5DFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CAF1619-4249-424E-A1D1-763FCBF5DFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CAF1619-4249-424E-A1D1-763FCBF5DFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CAF1619-4249-424E-A1D1-763FCBF5DFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DD6DEA-8CA3-401B-8550-37C2230C7AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DD6DEA-8CA3-401B-8550-37C2230C7AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DD6DEA-8CA3-401B-8550-37C2230C7AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DD6DEA-8CA3-401B-8550-37C2230C7AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CE1488-C912-47E6-9541-F634E3AA8916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CE1488-C912-47E6-9541-F634E3AA8916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CE1488-C912-47E6-9541-F634E3AA8916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CE1488-C912-47E6-9541-F634E3AA8916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4CC216-923C-4336-8539-1660BC1C7E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4CC216-923C-4336-8539-1660BC1C7E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4CC216-923C-4336-8539-1660BC1C7E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4CC216-923C-4336-8539-1660BC1C7E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A45674B-69CA-4C8C-9428-917902681783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A45674B-69CA-4C8C-9428-917902681783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A45674B-69CA-4C8C-9428-917902681783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A45674B-69CA-4C8C-9428-917902681783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BFF9CC96-5D01-4B72-A952-738BE4D63F12} = {31DBDB7B-DFD9-44B9-B892-B79B576AAD25}
-		{C8A70528-2858-4A7A-B08C-B42E9B9E2D15} = {31DBDB7B-DFD9-44B9-B892-B79B576AAD25}
-		{0762D145-A8C4-4986-9EF2-7594686651CE} = {31DBDB7B-DFD9-44B9-B892-B79B576AAD25}
-		{807B02D7-D330-48ED-822B-90017D4B8B8C} = {0FA9AF59-892B-4B23-A63B-8C9DBDC175F5}
 		{8CAF1619-4249-424E-A1D1-763FCBF5DFE4} = {31DBDB7B-DFD9-44B9-B892-B79B576AAD25}
+		{90DD6DEA-8CA3-401B-8550-37C2230C7AF5} = {31DBDB7B-DFD9-44B9-B892-B79B576AAD25}
+		{01CE1488-C912-47E6-9541-F634E3AA8916} = {31DBDB7B-DFD9-44B9-B892-B79B576AAD25}
+		{9F4CC216-923C-4336-8539-1660BC1C7E4E} = {31DBDB7B-DFD9-44B9-B892-B79B576AAD25}
+		{1A45674B-69CA-4C8C-9428-917902681783} = {0FA9AF59-892B-4B23-A63B-8C9DBDC175F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8167B4E9-147B-4BA6-A9A3-A7DC82D4879B}
