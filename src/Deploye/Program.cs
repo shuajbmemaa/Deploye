@@ -1,9 +1,18 @@
+using Deploye.Infrastructure.Data;
+using Deploye.Web.Extensions;
+using Deploye.Web.Modules;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddModule(new DataModule(builder.Configuration));
+builder.Services.AddModule(new AuthModule());
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
