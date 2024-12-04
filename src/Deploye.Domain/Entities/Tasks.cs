@@ -9,7 +9,7 @@ using Deploye.Domain.Enums;
 
 namespace Deploye.Domain.Entities;
 
-public class Task
+public class Tasks
 {
     [Key]
     public int Id { get; set; }
